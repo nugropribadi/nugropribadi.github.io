@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
-    <title>Catatan</title>
+    <link href="style.css" rel="stylesheet" />
+    <title>RPL SMKN 40 Jakarta</title>
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#">Catatan</a>
+        <a class="navbar-brand" href="#">RPL SMKN 40 Jakarta</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -34,19 +35,20 @@
     </nav>
     <!-- Navbar Akhir -->
 
-    <div class="container text-start">
-      <div class="row align-items-start">
-        <div class="col">
-          <div class="alert alert-primary" role="alert">
-            - Perintah git fetch hanya akan mengambil revisi (commit) saja dan tidak langsung melakukan penggabungan (merge) terhadap repository lokal.<br />
-            - Sedangkan git pull akan mengambil revisi (commit) dan langsung melakukan penggabungan (merge) terhadap repository lokal.
-            <p><code>git pull origin main</code></p>
-          </div>
-          <div class="col"><div class="alert alert-secondary" role="alert">A simple secondary alert—check it out!</div></div>
-        </div>
-      </div>
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+      <img src="img/masnugro.jpg" alt="Nugro Pribadi" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Nugro</h1>
+      <p class="lead">Teacher</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,32L30,74.7C60,117,120,203,180,229.3C240,256,300,224,360,229.3C420,235,480,277,540,288C600,299,660,277,720,261.3C780,245,840,235,900,213.3C960,192,1020,160,1080,149.3C1140,139,1200,149,1260,144C1320,139,1380,117,1410,106.7L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
     </div>
-
+    <!-- Jumbotron Akhir -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>

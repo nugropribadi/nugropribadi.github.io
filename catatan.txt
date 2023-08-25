@@ -1,0 +1,9 @@
+git init
+
+git add .
+git commit -m "Komen commit"
+git branch -M main
+git remote add origin https://github.com/nugropribadi/nugropribadi.github.io.git
+git push -u origin main
+
+https://getwaves.io/
