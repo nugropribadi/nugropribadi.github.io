@@ -7,6 +7,10 @@
   background: #e2edff;
 }
 
-section{
+section {
   padding-top: 5rem;
+}
+
+#gallery .row > * {
+  padding: 0;
 }
