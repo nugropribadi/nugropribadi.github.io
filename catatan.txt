@@ -1,10 +1,14 @@
 git init
 
+git config --global user.name "username"
+git config --global user.email "email@example.com"
+
 git add .
 git commit -m "Komen commit"
 git branch -M main
 git remote add origin https://github.com/nugropribadi/nugropribadi.github.io.git
 git push -u origin main
+git pull
 
 git stash = untuk menyimpan progress
 git stash apply/pop untuk mengembalikan 
