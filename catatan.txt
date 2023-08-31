@@ -10,6 +10,8 @@ git remote add origin https://github.com/nugropribadi/nugropribadi.github.io.git
 git push -u origin main
 git pull
 
+alias graph="git log --all --decorate --oneline --graph"
+
 git stash = untuk menyimpan progress
 git stash apply/pop untuk mengembalikan 
 https://getwaves.io/
