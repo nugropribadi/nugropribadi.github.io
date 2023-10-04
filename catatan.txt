@@ -1,17 +1,21 @@
 Melakukan git pull (Mengambil data dari github) :
-
 git init
 git config --global user.name "username"
 git config --global user.email "email@example.com"
 git remote add origin https://github.com/nugropribadi/nugropribadi.github.io.git
 git pull origin main
 
-git add .
-git commit -m "Komen commit"
-git branch -M main
+
+Melakukan git push (Mengupload data ke github) :
+git init
+git config --global user.name "username"
+git config --global user.email "email@example.com"
 git remote add origin https://github.com/nugropribadi/nugropribadi.github.io.git
+git add .
+git commit -m "Komentar commmit"
+git branch -M main
 git push -u origin main
-git pull
+
 
 alias graph="git log --all --decorate --oneline --graph"
 
