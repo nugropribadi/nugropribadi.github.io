@@ -1,7 +1,10 @@
-git init
+Melakukan git pull (Mengambil data dari github) :
 
+git init
 git config --global user.name "username"
 git config --global user.email "email@example.com"
+git remote add origin https://github.com/nugropribadi/nugropribadi.github.io.git
+git pull origin main
 
 git add .
 git commit -m "Komen commit"
