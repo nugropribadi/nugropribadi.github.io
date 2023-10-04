@@ -16,15 +16,15 @@ git commit -m "Komentar commmit"
 git branch -M main
 git push -u origin main
 
-
+=======================================================================================
 alias graph="git log --all --decorate --oneline --graph"
 
 git stash = untuk menyimpan progress
+
 git stash apply/pop untuk mengembalikan 
+
+
 https://getwaves.io/
-
 https://unsplash.com/
-
 https://michalsnik.github.io/aos/
-
 https://greensock.com/
