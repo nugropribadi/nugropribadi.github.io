@@ -3,6 +3,7 @@ git init
 git config --global user.name "username"
 git config --global user.email "email@example.com"
 git remote add origin https://github.com/nugropribadi/nugropribadi.github.io.git
+git branch -M main
 git pull origin main
 
 
@@ -15,6 +16,10 @@ git add .
 git commit -m "Komentar commmit"
 git branch -M main
 git push -u origin main
+
+
+Mengubah alamat origin url :
+git remote set-url origin https://github.com/nugropribadi/undangan-online.git
 
 =======================================================================================
 alias graph="git log --all --decorate --oneline --graph"
