@@ -30,6 +30,10 @@ Clone repo :
 6.Run php artisan serve
 7.Go to link localhost:8000
 
+Install laravel di virtualmin :
+https://tecadmin.net/install-laravel-framework-on-centos/
+
+
 =======================================================================================
 alias graph="git log --all --decorate --oneline --graph"
 
