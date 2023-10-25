@@ -17,6 +17,12 @@ git commit -m "Komentar commmit"
 git branch -M main
 git push -u origin main
 
+Install Valet :
+composer global require cretueusebiu/valet-windows
+valet install
+valet start
+valet park
+Ubah DNS V6 menjadi ::1
 
 Mengubah alamat origin url :
 git remote set-url origin https://github.com/nugropribadi/undangan-online.git
