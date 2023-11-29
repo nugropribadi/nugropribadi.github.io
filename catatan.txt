@@ -39,6 +39,25 @@ Clone repo :
 Install laravel di virtualmin :
 https://tecadmin.net/install-laravel-framework-on-centos/
 
+===================================================================================
+Downgrade from PHP8.0 to PHP7.4 on VestaCP - CentOS:
+
+This article details the steps to downgrade to PHP7.4 from PHP8.0.
+
+$ yum remove php php-cli php-fpm php-common
+$ yum-config-manager --disable remi-php8
+$ yum-config-manager --enable remi-php74
+$ yum install php php-cli php-common php-fpm
+$ yum install php-pdo php-mbstring php-bcmath php-gd php-mysqlnd
+
+Test:
+
+$ php -v
+
+Reload Nginx & PHP-FPM:
+
+$ service php-fpm restart
+$ service nginx restart
 
 =======================================================================================
 alias graph="git log --all --decorate --oneline --graph"
